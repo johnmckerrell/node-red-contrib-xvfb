@@ -1,0 +1,29 @@
+{
+  "name" : "node-red-contrib-xvfb",
+  "version": "1.0.0",
+  "description": "A simple wrapper of XVFB node",
+  "author": {
+    "name": "John McKerrell",
+    "email": "john@mckerrell.net"
+  },
+  "keywords": [
+    "xvfb",
+    "frame-buffer",
+    "nodered",
+    "node-red",
+    "headless"
+  ],
+  "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "xvfb": "xvfb.js"
+    }
+  },
+  "dependencies": {
+    "xvfb":  "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmckerrell/node-red-contrib-xvfb.git"
+  }
+}
